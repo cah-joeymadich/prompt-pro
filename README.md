@@ -1,2 +1,2 @@
-# prompt-pro
-app for submitting video content to storage service
+# react-skeleton
+reactjs web app skeleton using sass
