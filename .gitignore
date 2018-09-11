@@ -1,3 +1,6 @@
+# build artifacts
+src/**/*.css
+
 # Logs
 logs
 *.log
