@@ -1,0 +1,20 @@
+.Topnav {
+    color: white;
+    line-height: 30px;
+}
+
+.Topnav-title {
+    display: inline-flex;
+    line-height: 30px;
+    padding: 10px;
+
+    & > .logo {
+        animation: Topnav-logo-spin infinite 20s linear;
+        height: 30px;
+    }
+}
+
+@keyframes Topnav-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }

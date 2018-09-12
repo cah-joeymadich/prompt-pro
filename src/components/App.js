@@ -1,22 +1,14 @@
 import React, { Component } from 'react';
-import { Grid, Navbar, Jumbotron, Button } from 'react-bootstrap';
-import logo from '../logo.svg';
+import { Grid, Jumbotron, Button } from 'react-bootstrap';
+import TopNav from './navigation/TopNav';
 import './App.css';
+
 
 class App extends Component {
   render() {
     return (
       <section className="App">
-        <Navbar className="App-nav" inverse fixedTop>
-          <Grid>
-            <Navbar.Header>
-              <Navbar.Brand>
-                <a className="App-nav-title" href="/"><img src={logo} className="App-logo" alt="logo" /> React App</a>
-              </Navbar.Brand>
-              <Navbar.Toggle />
-            </Navbar.Header>
-          </Grid>
-        </Navbar>
+        <TopNav title="React App"/>
         <Jumbotron>
           <Grid>
             <h1>Welcome to React</h1>
