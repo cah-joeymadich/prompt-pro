@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Jumbotron, Button } from 'react-bootstrap';
+import { Jumbotron, Button } from 'react-bootstrap';
 import TopNav from './navigation/TopNav';
 import './App.css';
 
@@ -10,7 +10,6 @@ class App extends Component {
       <section className="App">
         <TopNav title="React App"/>
         <Jumbotron>
-          <Grid>
             <h1>Welcome to React</h1>
             <p>
               <Button
@@ -21,7 +20,6 @@ class App extends Component {
                 View React Bootstrap Docs
               </Button>
             </p>
-          </Grid>
         </Jumbotron>
       </section>
     );
